@@ -1,0 +1,10 @@
+{
+  "debug": {
+    "prefix": "dd",
+    "body": ["Rails.logger.info \"debug>>> #{$0}\""]
+  },
+  "print": {
+    "prefix": "pp",
+    "body": ["puts \"debug>>> #{$0}\""]
+  }
+}
