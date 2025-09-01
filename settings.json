@@ -381,9 +381,14 @@
 
   // Extensions
   "auto_install_extensions": {
+    "dockerfile": true,
+    "elixir": true,
     "html": true,
     "haml": true,
+    "make": true,
+    "ruby": true,
+    "scss": true,
     "toml": true,
-    "ruby": true
+    "vue": true
   }
 }
