@@ -8,337 +8,28 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // Visual
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+
   "ui_font_family": "Aporetic Serif",
   "ui_font_size": 18,
   "buffer_font_family": "Aporetic Sans Mono",
   "buffer_font_size": 16,
   "agent_font_size": 18,
-  "terminal": {
-    "font_family": "JetBrains Mono",
-    "font_size": 16
-  },
-
-  "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Ayu Dark"
-  },
-
-  "theme_overrides": {
-    "Ayu Light": {
-      // Modus Operandi
-      "editor.foreground": "#000000ff",
-      "editor.background": "#ffffffff",
-      "syntax": {
-        // Emacs: font-lock-constant-face
-        // blue-cooler
-        "boolean": {
-          "color": "#0000b0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-comment-face
-        // fg-dim
-        "comment": {
-          "color": "#595959",
-          "font_style": "italic",
-          "font_weight": null
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "constant": {
-          "color": "#005f5f",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-constant-face
-        // blue-cooler
-        "constant.builtin": {
-          "color": "#0000b0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "function.builtin": {
-          "color": "#8f0075",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-function-name-face
-        // magenta
-        "function.method": {
-          "color": "#721045",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "function.method.builtin": {
-          "color": "#531ab6",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "keyword": {
-          "color": "#531ab6",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "keyword.exception": {
-          "color": "#8f0075",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "keyword.import": {
-          "color": "#8f0075",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // operator
-        "operator": {
-          "color": "#000000",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-property-name-face
-        // cyan
-        "property": {
-          "color": "#005e8b",
-          "font_style": null,
-          "font_weight": null
-        },
-        // punctuation
-        "punctuation.bracket": {
-          "color": "#000000",
-          "font_style": null,
-          "font_weight": null
-        },
-        "punctuation.delimiter": {
-          "color": "#000000",
-          "font_style": null,
-          "font_weight": null
-        },
-        "punctuation.special": {
-          "color": "#000000",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-string-face
-        // blue-warmer
-        "string": {
-          "color": "#354fcf",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-string-face
-        // blue-warmer
-        "string.special.symbol": {
-          "color": "#354fcf",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "type": {
-          "color": "#005f5f",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "type.super": {
-          "color": "#005f5f",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-variable-name-face
-        // cyan
-        "variable": {
-          "color": "#005e8b",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-variable-name-face
-        // cyan
-        "variable.parameter": {
-          "color": "#005e8b",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "variable.special": {
-          "color": "#531ab6",
-          "font_style": null,
-          "font_weight": 700
-        }
-      }
-    },
-    "Ayu Dark": {
-      // Modus Vivendi
-      "editor.foreground": "#ffffffff",
-      "editor.background": "#000000ff",
-      "syntax": {
-        // Emacs: font-lock-constant-face
-        // blue-cooler
-        "boolean": {
-          "color": "#00bcff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-comment-face
-        // fg-dim
-        "comment": {
-          "color": "#989898",
-          "font_style": "italic",
-          "font_weight": null
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "constant": {
-          "color": "#6ae4b9",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-constant-face
-        // blue-cooler
-        "constant.builtin": {
-          "color": "#00bcff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "function.builtin": {
-          "color": "#f78fe7",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-function-name-face
-        // magenta
-        "function.method": {
-          "color": "#feacd0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "function.method.builtin": {
-          "color": "#b6a0ff",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "keyword": {
-          "color": "#b6a0ff",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "keyword.exception": {
-          "color": "#f78fe7",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-builtin-face
-        // magenta-warmer
-        "keyword.import": {
-          "color": "#f78fe7",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // operator
-        "operator": {
-          "color": "#ffffff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-property-name-face
-        // cyan
-        "property": {
-          "color": "#00d3d0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // punctuation
-        "punctuation.bracket": {
-          "color": "#ffffff",
-          "font_style": null,
-          "font_weight": null
-        },
-        "punctuation.delimiter": {
-          "color": "#ffffff",
-          "font_style": null,
-          "font_weight": null
-        },
-        "punctuation.special": {
-          "color": "#ffffff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-string-face
-        // blue-warmer
-        "string": {
-          "color": "#79a8ff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-string-face
-        // blue-warmer
-        "string.special.symbol": {
-          "color": "#79a8ff",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "type": {
-          "color": "#6ae4b9",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-type-face
-        // cyan-cooler
-        "type.super": {
-          "color": "#6ae4b9",
-          "font_style": null,
-          "font_weight": 700
-        },
-        // Emacs: font-lock-variable-name-face
-        // cyan
-        "variable": {
-          "color": "#00d3d0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-variable-name-face
-        // cyan
-        "variable.parameter": {
-          "color": "#00d3d0",
-          "font_style": null,
-          "font_weight": null
-        },
-        // Emacs: font-lock-keyword-face
-        // magenta-cooler
-        "variable.special": {
-          "color": "#b6a0ff",
-          "font_style": null,
-          "font_weight": 700
-        }
-      }
-    }
-  },
 
   // Terminal
   "terminal": {
+    "font_family": "JetBrains Mono",
+    "font_size": 16,
     "shell": {
       "program": "fish"
     }
@@ -381,6 +72,7 @@
 
   // Extensions
   "auto_install_extensions": {
+    "catppuccin": true,
     "dockerfile": true,
     "elixir": true,
     "html": true,
