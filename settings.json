@@ -74,11 +74,13 @@
   // Extensions
   "auto_install_extensions": {
     "catppuccin": true,
+    "catppuccin-icons": true,
     "dockerfile": true,
     "elixir": true,
-    "html": true,
     "haml": true,
+    "html": true,
     "make": true,
+    "nix": true,
     "ruby": true,
     "scss": true,
     "toml": true,
