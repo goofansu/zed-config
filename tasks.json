@@ -7,6 +7,12 @@
     "hide": "always"
   },
   {
+    "label": "browse-pull-request",
+    "command": "gh pr view -w",
+    "reveal": "never",
+    "hide": "always"
+  },
+  {
     "label": "rspec-verify",
     "command": "bundle",
     "args": ["exec", "rspec", "$ZED_RELATIVE_FILE"],

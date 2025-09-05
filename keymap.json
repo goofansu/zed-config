@@ -1,5 +1,11 @@
 [
   {
+    "context": "Workspace",
+    "bindings": {
+      "alt-p": ["task::Spawn", { "task_name": "browse-pull-request" }]
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "alt-g": ["task::Spawn", { "task_name": "emacs-goto-file-at-point" }],
