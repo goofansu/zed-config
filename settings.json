@@ -10,14 +10,8 @@
   // Visual
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-
-  "icon_theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "light": "Modus Light",
+    "dark": "Modus Dark"
   },
 
   "ui_font_family": "Aporetic Serif",
@@ -73,8 +67,6 @@
 
   // Extensions
   "auto_install_extensions": {
-    "catppuccin": true,
-    "catppuccin-icons": true,
     "dockerfile": true,
     "elixir": true,
     "haml": true,
