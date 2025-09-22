@@ -35,13 +35,18 @@
     }
   },
 
-  // Language Servers
-  "enable_language_server": false,
+  // Language-specific settings
   "languages": {
     "Ruby": {
       "language_servers": ["ruby-lsp", "!solargraph", "..."]
+    },
+    "YAML": {
+      "format_on_save": "off"
     }
   },
+
+  // Language Servers
+  "enable_language_server": false,
   "lsp": {
     "ruby-lsp": {
       "initialization_options": {
