@@ -70,6 +70,7 @@
     "ruby": true,
     "scss": true,
     "toml": true,
-    "vue": true
+    "vue": true,
+    "xml": true
   }
 }
