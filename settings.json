@@ -8,18 +8,6 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // Visual
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-
-  "icon_theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-
   "ui_font_family": "Aporetic Serif",
   "ui_font_size": 18,
   "buffer_font_family": "Aporetic Sans Mono",
@@ -59,8 +47,6 @@
 
   // Extensions
   "auto_install_extensions": {
-    "catppuccin": true,
-    "catppuccin-icons": true,
     "dockerfile": true,
     "elixir": true,
     "haml": true,
