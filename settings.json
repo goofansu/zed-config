@@ -26,8 +26,21 @@
   // Language Servers
   "enable_language_server": false,
 
+  // Languages
+  "languages": {
+    "Elixir": {
+      "format_on_save": {
+        "external": {
+          "command": "mix",
+          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
+        }
+      }
+    }
+  },
+
   // AI
   "agent": {
+    "default_profile": "write",
     "play_sound_when_agent_done": true,
     "always_allow_tool_actions": true,
     "default_model": {
