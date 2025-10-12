@@ -1,20 +1,10 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // Visual
   "ui_font_family": "Aporetic Serif",
   "ui_font_size": 18,
   "buffer_font_family": "Aporetic Sans Mono",
   "buffer_font_size": 16,
   "agent_font_size": 18,
 
-  // Terminal
   "terminal": {
     "font_family": "JetBrains Mono",
     "font_size": 16,
@@ -23,10 +13,8 @@
     }
   },
 
-  // Language Servers
   "enable_language_server": false,
 
-  // Languages
   "languages": {
     "Elixir": {
       "format_on_save": {
@@ -38,7 +26,6 @@
     }
   },
 
-  // AI
   "agent": {
     "default_profile": "write",
     "play_sound_when_agent_done": true,
@@ -53,12 +40,10 @@
     }
   },
 
-  // Global features
   "features": {
     "edit_prediction_provider": "none"
   },
 
-  // Extensions
   "auto_install_extensions": {
     "dockerfile": true,
     "elixir": true,
