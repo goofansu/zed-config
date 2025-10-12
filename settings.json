@@ -5,6 +5,18 @@
   "buffer_font_size": 16,
   "agent_font_size": 18,
 
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+
   "terminal": {
     "font_family": "JetBrains Mono",
     "font_size": 16,
@@ -45,6 +57,8 @@
   },
 
   "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
     "dockerfile": true,
     "elixir": true,
     "haml": true,
