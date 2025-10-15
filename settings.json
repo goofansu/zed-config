@@ -7,14 +7,8 @@
 
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-
-  "icon_theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "light": "Modus Operandi",
+    "dark": "Modus Vivendi"
   },
 
   "terminal": {
@@ -57,13 +51,12 @@
   },
 
   "auto_install_extensions": {
-    "catppuccin": true,
-    "catppuccin-icons": true,
     "dockerfile": true,
     "elixir": true,
     "haml": true,
     "html": true,
     "make": true,
+    "modus-themes": true,
     "nix": true,
     "ruby": true,
     "scss": true,
