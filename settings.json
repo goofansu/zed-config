@@ -3,7 +3,7 @@
   "ui_font_size": 18,
   "buffer_font_family": "Aporetic Sans Mono",
   "buffer_font_size": 16,
-  "agent_font_size": 18,
+  "agent_ui_font_size": 18,
 
   "theme": {
     "mode": "system",
@@ -23,12 +23,13 @@
 
   "languages": {
     "Elixir": {
-      "format_on_save": {
+      "formatter": {
         "external": {
           "command": "mix",
           "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
         }
-      }
+      },
+      "format_on_save": "on"
     }
   },
 
