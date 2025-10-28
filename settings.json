@@ -1,9 +1,6 @@
 {
   "ui_font_family": "Aporetic Serif",
-  "ui_font_size": 18,
   "buffer_font_family": "Aporetic Sans Mono",
-  "buffer_font_size": 16,
-  "agent_ui_font_size": 18,
 
   "theme": {
     "mode": "system",
@@ -12,26 +9,13 @@
   },
 
   "terminal": {
-    "font_family": "JetBrains Mono",
-    "font_size": 16,
+    "font_family": "Aporetic Sans Mono",
     "shell": {
       "program": "fish"
     }
   },
 
   "enable_language_server": false,
-
-  "languages": {
-    "Elixir": {
-      "formatter": {
-        "external": {
-          "command": "mix",
-          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
-        }
-      },
-      "format_on_save": "on"
-    }
-  },
 
   "agent": {
     "default_profile": "write",
