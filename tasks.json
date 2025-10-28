@@ -18,7 +18,10 @@
     "args": ["exec", "rspec", "$ZED_RELATIVE_FILE"],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
-    "reveal": "no_focus"
+    "reveal": "no_focus",
+    "shell": {
+      "program": "fish"
+    }
   },
   {
     "label": "rspec-verify-method",
@@ -26,6 +29,9 @@
     "args": ["exec", "rspec", "$ZED_RELATIVE_FILE:$ZED_ROW"],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
-    "reveal": "no_focus"
+    "reveal": "no_focus",
+    "shell": {
+      "program": "fish"
+    }
   }
 ]
