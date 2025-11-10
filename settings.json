@@ -15,6 +15,7 @@
     }
   },
 
+  "tab_size": 2,
   "enable_language_server": false,
 
   "agent": {
