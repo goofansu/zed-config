@@ -1,6 +1,9 @@
 {
+  "ui_font_size": 16,
   "ui_font_family": "Aporetic Serif",
+  "buffer_font_size": 16,
   "buffer_font_family": "Aporetic Sans Mono",
+  "agent_buffer_font_size": 16,
 
   "theme": {
     "mode": "system",
