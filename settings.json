@@ -13,9 +13,7 @@
 
   "terminal": {
     "font_family": "Aporetic Sans Mono",
-    "shell": {
-      "program": "fish"
-    }
+    "shell": "system"
   },
 
   "tab_size": 2,
