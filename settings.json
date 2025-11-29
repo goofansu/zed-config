@@ -33,6 +33,12 @@
     }
   },
 
+  "agent_servers": {
+    "claude": {
+      "default_mode": "bypassPermissions"
+    }
+  },
+
   "features": {
     "edit_prediction_provider": "none"
   },
