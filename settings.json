@@ -57,6 +57,7 @@
     "vue": true,
     "xml": true
   },
+
   "profiles": {
     "small": {
       "ui_font_size": 12,
@@ -72,6 +73,12 @@
       "ui_font_size": 24,
       "buffer_font_size": 24,
       "agent_buffer_font_size": 24
+    }
+  },
+
+  "languages": {
+    "Nix": {
+      "language_servers": ["nixd", "!nil"]
     }
   }
 }
