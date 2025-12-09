@@ -27,5 +27,12 @@
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
     "reveal": "no_focus"
+  },
+  {
+    "label": "open-in-default-app",
+    "command": "open",
+    "args": ["$ZED_FILE"],
+    "reveal": "never",
+    "hide": "always"
   }
 ]
