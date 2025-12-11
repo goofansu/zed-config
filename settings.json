@@ -24,12 +24,8 @@
     "play_sound_when_agent_done": true,
     "always_allow_tool_actions": true,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-5"
-    },
-    "inline_assistant_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-5"
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
     },
     "commit_message_model": {
       "provider": "copilot_chat",
