@@ -8,12 +8,12 @@
   "theme": {
     "mode": "system",
     "light": "Modus Operandi",
-    "dark": "Modus Vivendi"
+    "dark": "Modus Vivendi",
   },
 
   "terminal": {
     "font_family": "Aporetic Sans Mono",
-    "shell": "system"
+    "shell": "system",
   },
 
   "tab_size": 2,
@@ -25,18 +25,18 @@
     "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
-    }
+      "model": "claude-sonnet-4.5",
+    },
   },
 
   "agent_servers": {
     "claude": {
-      "default_mode": "bypassPermissions"
-    }
+      "default_mode": "bypassPermissions",
+    },
   },
 
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
 
   "auto_install_extensions": {
@@ -51,30 +51,30 @@
     "scss": true,
     "toml": true,
     "vue": true,
-    "xml": true
+    "xml": true,
   },
 
   "profiles": {
     "small": {
       "ui_font_size": 12,
       "buffer_font_size": 12,
-      "agent_buffer_font_size": 12
+      "agent_buffer_font_size": 12,
     },
     "medium": {
       "ui_font_size": 20,
       "buffer_font_size": 20,
-      "agent_buffer_font_size": 20
+      "agent_buffer_font_size": 20,
     },
     "large": {
       "ui_font_size": 24,
       "buffer_font_size": 24,
-      "agent_buffer_font_size": 24
-    }
+      "agent_buffer_font_size": 24,
+    },
   },
 
   "languages": {
     "Nix": {
-      "language_servers": ["nixd", "!nil"]
-    }
-  }
+      "language_servers": ["nixd", "!nil"],
+    },
+  },
 }
