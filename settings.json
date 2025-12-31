@@ -16,9 +16,6 @@
     "shell": "system",
   },
 
-  "tab_size": 2,
-  "enable_language_server": false,
-
   "agent": {
     "default_profile": "write",
     "play_sound_when_agent_done": true,
@@ -26,6 +23,10 @@
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.5",
+    },
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "claude-haiku-4.5",
     },
   },
 
