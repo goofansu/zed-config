@@ -3,7 +3,6 @@
   "ui_font_family": "Aporetic Serif",
   "buffer_font_size": 16,
   "buffer_font_family": "Aporetic Sans Mono",
-  "agent_buffer_font_size": 16,
 
   "theme": {
     "mode": "system",
@@ -16,28 +15,19 @@
     "shell": "system",
   },
 
-  "agent": {
-    "default_profile": "ask",
-    "play_sound_when_agent_done": true,
-    "always_allow_tool_actions": true,
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5",
-    },
-    "inline_assistant_model": {
-      "provider": "copilot_chat",
-      "model": "claude-haiku-4.5",
-    },
-  },
-
-  "agent_servers": {
-    "claude": {
-      "default_mode": "bypassPermissions",
-    },
-  },
-
   "features": {
     "edit_prediction_provider": "none",
+  },
+
+  "agent": {
+    "play_sound_when_agent_done": true,
+    "always_allow_tool_actions": true,
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-3-flash-preview"
+    },
+    "model_parameters": []
   },
 
   "auto_install_extensions": {
