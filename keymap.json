@@ -2,16 +2,13 @@
   {
     "context": "Workspace",
     "bindings": {
-      "alt-p": ["task::Spawn", { "task_name": "browse-pull-request" }]
-    }
+      "alt-p": ["task::Spawn", { "task_name": "browse-pull-request" }],
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       "alt-g": ["task::Spawn", { "task_name": "emacs-goto-file-at-point" }],
-      "alt-v": ["task::Spawn", { "task_name": "rspec-verify" }],
-      "alt-s": ["task::Spawn", { "task_name": "rspec-verify-method" }],
-      "alt-o": ["task::Spawn", { "task_name": "open-in-default-app" }]
-    }
-  }
+    },
+  },
 ]

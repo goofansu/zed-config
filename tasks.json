@@ -4,13 +4,13 @@
     "command": "emacsclient",
     "args": ["-s", "gui", "-nc", "+$ZED_ROW:$ZED_COLUMN", "$ZED_FILE"],
     "reveal": "never",
-    "hide": "always"
+    "hide": "always",
   },
   {
     "label": "browse-pull-request",
     "command": "gh pr view -w",
     "reveal": "never",
-    "hide": "always"
+    "hide": "always",
   },
   {
     "label": "rspec-verify",
@@ -18,7 +18,7 @@
     "args": ["exec", "rspec", "$ZED_RELATIVE_FILE"],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
-    "reveal": "no_focus"
+    "reveal": "no_focus",
   },
   {
     "label": "rspec-verify-method",
@@ -26,13 +26,6 @@
     "args": ["exec", "rspec", "$ZED_RELATIVE_FILE:$ZED_ROW"],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
-    "reveal": "no_focus"
+    "reveal": "no_focus",
   },
-  {
-    "label": "open-in-default-app",
-    "command": "open",
-    "args": ["$ZED_FILE"],
-    "reveal": "never",
-    "hide": "always"
-  }
 ]
