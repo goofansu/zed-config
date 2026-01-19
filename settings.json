@@ -15,19 +15,9 @@
     "shell": "system",
   },
 
+  "disable_ai": true,
   "features": {
     "edit_prediction_provider": "none",
-  },
-
-  "agent": {
-    "play_sound_when_agent_done": true,
-    "always_allow_tool_actions": true,
-    "default_profile": "ask",
-    "default_model": {
-      "provider": "google",
-      "model": "gemini-3-flash-preview"
-    },
-    "model_parameters": []
   },
 
   "auto_install_extensions": {
