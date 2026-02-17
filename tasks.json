@@ -15,7 +15,13 @@
   {
     "label": "rspec-verify",
     "command": "bundle",
-    "args": ["exec", "rspec", "$ZED_RELATIVE_FILE"],
+    "args": [
+      "exec",
+      "rspec",
+      "--format",
+      "documentation",
+      "$ZED_RELATIVE_FILE",
+    ],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
     "reveal": "no_focus",
@@ -23,7 +29,13 @@
   {
     "label": "rspec-verify-method",
     "command": "bundle",
-    "args": ["exec", "rspec", "$ZED_RELATIVE_FILE:$ZED_ROW"],
+    "args": [
+      "exec",
+      "rspec",
+      "--format",
+      "documentation",
+      "$ZED_RELATIVE_FILE:$ZED_ROW",
+    ],
     "cwd": "$ZED_WORKTREE_ROOT",
     "tags": ["ruby-test"],
     "reveal": "no_focus",

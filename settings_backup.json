@@ -1,4 +1,12 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-3-pro-preview"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "ui_font_size": 16,
   "ui_font_family": "Aporetic Serif",
   "buffer_font_size": 16,
@@ -15,9 +23,9 @@
     "shell": "system",
   },
 
-  "disable_ai": true,
-  "edit_predictions": {
-    "provider": "none",
+  "disable_ai": false,
+  "features": {
+    "edit_prediction_provider": "none",
   },
 
   "auto_install_extensions": {
