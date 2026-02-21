@@ -36,16 +36,6 @@
   },
 
   "profiles": {
-    "small": {
-      "ui_font_size": 12,
-      "buffer_font_size": 12,
-      "agent_buffer_font_size": 12,
-    },
-    "medium": {
-      "ui_font_size": 20,
-      "buffer_font_size": 20,
-      "agent_buffer_font_size": 20,
-    },
     "large": {
       "ui_font_size": 24,
       "buffer_font_size": 24,
