@@ -11,13 +11,9 @@
   },
 
   "terminal": {
+    "button": false,
     "font_family": "Aporetic Sans Mono",
     "shell": "system",
-  },
-
-  "disable_ai": true,
-  "edit_predictions": {
-    "provider": "none",
   },
 
   "auto_install_extensions": {
@@ -47,5 +43,28 @@
     "Nix": {
       "language_servers": ["nixd", "!nil"],
     },
+  },
+
+  "disable_ai": true,
+  "edit_predictions": {
+    "provider": "none",
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "notification_panel": {
+    "button": false,
   },
 }
