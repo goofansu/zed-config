@@ -39,12 +39,7 @@
     },
   },
 
-  "languages": {
-    "Nix": {
-      "language_servers": ["nixd", "!nil"],
-    },
-  },
-
+  "enable_language_server": false,
   "disable_ai": true,
   "edit_predictions": {
     "provider": "none",
