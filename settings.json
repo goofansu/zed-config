@@ -45,6 +45,10 @@
   },
 
   "agent": {
+    "tool_permissions": {
+      "default": "allow",
+      "tools": {},
+    },
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4.6",
@@ -60,5 +64,11 @@
       },
     ],
     "model_parameters": [],
+  },
+
+  "languages": {
+    "Nix": {
+      "language_servers": ["nixd", "!nil"],
+    },
   },
 }
