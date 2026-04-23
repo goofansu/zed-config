@@ -1,0 +1,43 @@
+[
+  {
+    "label": "emacs-goto-file-at-point",
+    "command": "emacsclient",
+    "args": ["-s", "gui", "-nc", "+$ZED_ROW:$ZED_COLUMN", "$ZED_FILE"],
+    "reveal": "never",
+    "hide": "always",
+  },
+  {
+    "label": "browse-pull-request",
+    "command": "gh pr view -w",
+    "reveal": "never",
+    "hide": "always",
+  },
+  {
+    "label": "rspec-verify",
+    "command": "bundle",
+    "args": [
+      "exec",
+      "rspec",
+      "--format",
+      "documentation",
+      "$ZED_RELATIVE_FILE",
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "tags": ["ruby-test"],
+    "reveal": "no_focus",
+  },
+  {
+    "label": "rspec-verify-method",
+    "command": "bundle",
+    "args": [
+      "exec",
+      "rspec",
+      "--format",
+      "documentation",
+      "$ZED_RELATIVE_FILE:$ZED_ROW",
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "tags": ["ruby-test"],
+    "reveal": "no_focus",
+  },
+]
