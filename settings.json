@@ -1,4 +1,31 @@
 {
+  "ui_font_size": 16,
+  "ui_font_family": "Aporetic Serif",
+  "buffer_font_size": 16,
+  "buffer_font_family": "Aporetic Sans Mono",
+  "agent_buffer_font_size": 16,
+
+  "profiles": {
+    "large": {
+      "settings": {
+        "ui_font_size": 24,
+        "buffer_font_size": 24,
+        "agent_buffer_font_size": 24,
+      },
+    },
+  },
+
+  "theme": {
+    "mode": "system",
+    "light": "Modus Operandi",
+    "dark": "Modus Vivendi",
+  },
+
+  "terminal": {
+    "font_family": "Aporetic Sans Mono",
+    "shell": "system",
+  },
+
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
@@ -8,25 +35,6 @@
     },
     "favorite_models": [],
     "model_parameters": [],
-  },
-
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "agent_buffer_font_size": 16,
-
-  "ui_font_family": "Aporetic Serif",
-  "buffer_font_family": "Aporetic Sans Mono",
-
-  "theme": {
-    "mode": "system",
-    "light": "Modus Operandi",
-    "dark": "Modus Vivendi",
-  },
-
-  "terminal": {
-    "button": false,
-    "font_family": "Aporetic Sans Mono",
-    "shell": "system",
   },
 
   "auto_install_extensions": {
@@ -42,19 +50,5 @@
     "toml": true,
     "vue": true,
     "xml": true,
-  },
-
-  "profiles": {
-    "large": {
-      "ui_font_size": 24,
-      "buffer_font_size": 24,
-      "agent_buffer_font_size": 24,
-    },
-  },
-
-  "enable_language_server": false,
-  "disable_ai": false,
-  "edit_predictions": {
-    "provider": "none",
   },
 }
