@@ -23,6 +23,7 @@
   "terminal": {
     "font_family": "Aporetic Sans Mono",
     "shell": "system",
+    "minimum_contrast": 0,
   },
 
   "auto_install_extensions": {
