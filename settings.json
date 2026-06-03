@@ -1,8 +1,17 @@
 {
   "ui_font_size": 16,
-  "ui_font_family": "Aporetic Serif",
   "buffer_font_size": 16,
+  "ui_font_family": "Aporetic Serif",
   "buffer_font_family": "Aporetic Sans Mono",
+
+  "profiles": {
+    "large": {
+      "settings": {
+        "ui_font_size": 24,
+        "buffer_font_size": 24,
+      },
+    },
+  },
 
   "theme": {
     "mode": "system",
@@ -12,7 +21,6 @@
 
   "terminal": {
     "font_family": "Aporetic Sans Mono",
-    "shell": "system",
     "minimum_contrast": 0,
   },
 
@@ -31,21 +39,26 @@
     "xml": true,
   },
 
-  "profiles": {
-    "large": {
-      "settings": {
-        "ui_font_size": 24,
-        "buffer_font_size": 24,
-      },
-    },
-  },
-
-  "disable_ai": true,
   "enable_language_server": false,
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
+  "cli_default_open_behavior": "existing_window",
+
+  "agent": {
+    "tool_permissions": {
+      "default": "allow",
+      "tools": {},
+    },
+    "default_profile": "write",
+    "default_model": {
+      "effort": "medium",
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
   },
 
-  "cli_default_open_behavior": "existing_window",
+  "edit_predictions": {
+    "provider": "none",
+  },
 }
