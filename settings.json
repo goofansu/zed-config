@@ -49,9 +49,9 @@
     },
     "default_profile": "write",
     "default_model": {
-      "effort": "medium",
-      "provider": "openai-subscribed",
-      "model": "gpt-5.5",
+      "effort": "max",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
       "enable_thinking": true,
     },
     "favorite_models": [],
