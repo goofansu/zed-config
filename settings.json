@@ -1,4 +1,5 @@
 {
+  "theme": "Modus Vivendi",
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "ui_font_family": "Aporetic Serif",
@@ -11,13 +12,6 @@
         "buffer_font_size": 24,
       },
     },
-  },
-
-  "theme": "Modus Vivendi",
-
-  "terminal": {
-    "font_family": "Aporetic Sans Mono",
-    "minimum_contrast": 0,
   },
 
   "auto_install_extensions": {
