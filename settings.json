@@ -13,11 +13,7 @@
     },
   },
 
-  "theme": {
-    "mode": "system",
-    "light": "Modus Operandi",
-    "dark": "Modus Vivendi",
-  },
+  "theme": "Modus Vivendi",
 
   "terminal": {
     "font_family": "Aporetic Sans Mono",
