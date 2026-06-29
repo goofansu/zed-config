@@ -1,5 +1,10 @@
 {
-  "theme": "Modus Vivendi",
+  "diff_view_style": "unified",
+  "theme": {
+    "mode": "system",
+    "light": "Modus Operandi",
+    "dark": "Modus Vivendi"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "ui_font_family": "Aporetic Serif",
